@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>P² Academy</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f7fc;
+    color:#333;
+}
+
+header{
+    background:linear-gradient(135deg,#4f46e5,#7c3aed);
+    color:white;
+    text-align:center;
+    padding:80px 20px;
+}
+
+header h1{
+    font-size:3rem;
+}
+
+header p{
+    margin-top:10px;
+    font-size:1.2rem;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 25px;
+    background:white;
+    color:#4f46e5;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:bold;
+}
+
+section{
+    padding:60px 10%;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:30px;
+    color:#4f46e5;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    text-align:center;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+    transition:0.3s;
+}
+
+.about{
+    text-align:center;
+    line-height:1.8;
+}
+
+.contact{
+    text-align:center;
+}
+
+footer{
+    background:#4f46e5;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>P² Academy</h1>
+    <p>Pause to Learn, Pass with Confidence</p>
+    <a href="#contact" class="btn">Enroll Now</a>
+</header>
+
+<section>
+    <h2 class="section-title">Our Courses</h2>
+
+    <div class="cards">
+        <div class="card">
+            <h3>LKG - 5th</h3>
+            <p>All Subjects</p>
+        </div>
+
+        <div class="card">
+            <h3>6th - 10th</h3>
+            <p>All Subjects</p>
+        </div>
+
+        <div class="card">
+            <h3>Exam Coaching</h3>
+            <p>Special Preparation</p>
+        </div>
+
+        <div class="card">
+            <h3>Doubt Sessions</h3>
+            <p>Individual Support</p>
+        </div>
+    </div>
+</section>
+
+<section class="about">
+    <h2 class="section-title">About Us</h2>
+
+    <p>
+        P² Academy is dedicated to helping students
+        learn effectively through personalized teaching,
+        regular assessments, and individual attention.
+        We aim to build confidence and academic excellence.
+    </p>
+</section>
+
+<section>
+    <h2 class="section-title">Why Choose Us?</h2>
+
+    <div class="cards">
+        <div class="card">Individual Attention</div>
+        <div class="card">Weekly Tests</div>
+        <div class="card">Progress Reports</div>
+        <div class="card">Affordable Fees</div>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2 class="section-title">Contact Us</h2>
+
+    <p>📞 +91 XXXXX XXXXX</p>
+    <p>📧 p2academy@gmail.com</p>
+    <p>📍 Chennai, Tamil Nadu</p>
+</section>
+
+<footer>
+    <p>© 2026 P² Academy | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
